@@ -14,3 +14,4 @@ Programs on Data Structures & Algorithm using C
 4. Merge Two Sorted Array
 5. Passing an Array to Function.
 6. Interchange the Largest & Smallest Number in an Array.
+7. Passing 2D Array to Function
