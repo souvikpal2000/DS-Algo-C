@@ -16,3 +16,7 @@ Programs on Data Structures & Algorithm using C
 6. Interchange the Largest & Smallest Number in an Array.
 7. Passing 2D Array to Function.
 8. Transpose of a Matrix.
+
+### `Strings`
+
+1. Find the Length of String.
