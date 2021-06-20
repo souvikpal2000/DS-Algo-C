@@ -5,6 +5,7 @@ Programs on Data Structures & Algorithm using C
 ## Topics
 
 1. Arrays
+2. Strings
 
 ### `Arrays`
 

@@ -8,9 +8,3 @@
 6. Interchange the Largest & Smallest Number in an Array.
 7. Passing 2D Array to Function.
 8. Transpose of a Matrix.
-
-## License
- 
-The MIT License (MIT)
-
-Copyright (c) 2021 Souvik Pal https://www.linkedin.com/in/souvik-pal-4b4138171/
