@@ -25,6 +25,7 @@ Programs on Data Structures & Algorithm using C
 3. Appending a String to Another String.
 4. Comparing Two String.
 5. Reversing a String.
+6. Extract a Substring from a String.
 
 ## License
  
