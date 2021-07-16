@@ -29,6 +29,10 @@ Programs on Data Structures & Algorithm using C
 7. Inserting a String into Main String.
 8. Pattern Matching.
 
+### `Sorting Algorithms`
+
+1. Bubble Sort.
+
 ## License
  
 The MIT License (MIT)
