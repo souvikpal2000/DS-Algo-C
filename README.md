@@ -29,7 +29,7 @@ Programs on Data Structures & Algorithm using C
 7. Inserting a String into Main String.
 8. Pattern Matching.
 
-### `Sorting Algorithms`
+### `Sorting`
 
 1. Bubble Sort.
 
