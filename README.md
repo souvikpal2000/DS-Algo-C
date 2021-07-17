@@ -6,6 +6,7 @@ Programs on Data Structures & Algorithm using C
 
 1. Arrays
 2. Strings
+3. Sorting
 
 ### `Arrays`
 
