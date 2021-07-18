@@ -6,7 +6,8 @@ Programs on Data Structures & Algorithm using C
 
 1. Arrays
 2. Strings
-3. Sorting
+3. Recursion
+4. Sorting
 
 ### `Arrays`
 
@@ -29,6 +30,10 @@ Programs on Data Structures & Algorithm using C
 6. Extract a Substring from a String.
 7. Inserting a String into Main String.
 8. Pattern Matching.
+
+### `Recursion`
+
+1. Sum of all the Numbers from Zero to that Number.
 
 ### `Sorting`
 
