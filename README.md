@@ -7,7 +7,8 @@ Programs on Data Structures & Algorithm using C
 1. Arrays
 2. Strings
 3. Recursion
-4. Sorting
+4. Searching
+5. Sorting
 
 ### `Arrays`
 
@@ -38,6 +39,10 @@ Programs on Data Structures & Algorithm using C
 3. Fibonacci Series.
 4. Multiplication of Numbers in Array.
 5. Check a Number is Palindrome or Not.
+
+### `Searching`
+
+1. Linear Search.
 
 ### `Sorting`
 
