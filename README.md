@@ -43,6 +43,7 @@ Programs on Data Structures & Algorithm using C
 ### `Searching`
 
 1. Linear Search.
+2. Binary Search.
 
 ### `Sorting`
 
