@@ -52,9 +52,9 @@ int main()
 			printf("\n");
 			break;
 		}
-		if(choice==1)
+		else if(choice==1)
 		{
-			printf("Enter Number to be Inserted : ");
+			printf("Enter Number : ");
 			scanf("%d",&no);
 			printf("\n");
 			insert(no);
@@ -63,10 +63,6 @@ int main()
 		{
 			display();
 			printf("\n\n");
-		}
-		else if(choice==0)
-		{
-			break;
 		}
 	}
 }
