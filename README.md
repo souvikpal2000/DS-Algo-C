@@ -9,7 +9,8 @@ Programs on Data Structures & Algorithm using C
 3. Recursion
 4. Searching
 5. Sorting
-6. Singly Linked list
+6. Singly Linked List
+7. Circular Linked List
 
 ### `Arrays`
 
@@ -61,7 +62,12 @@ Programs on Data Structures & Algorithm using C
 
 1. Adding & Traversing.
 2. Adding, Inserting & Traversing.
-3. Adding, Deleting & Traverersing.
+3. Adding, Deleting & Traversing.
+
+
+### `Circular Linked List`
+
+1. Adding & Traversing.
 
 ## License
  
