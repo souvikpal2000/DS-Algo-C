@@ -68,6 +68,7 @@ Programs on Data Structures & Algorithm using C
 ### `Circular Linked List`
 
 1. Adding & Traversing.
+2. Adding, Inserting & Traversing.
 
 ## License
  
