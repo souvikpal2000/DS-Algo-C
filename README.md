@@ -76,6 +76,7 @@ Programs on Data Structures & Algorithm using C
 
 1. Adding & Traversing. 
 2. Adding, Inserting & Traversing.
+3. Adding, Deleting & Traversing.
 
 ## License
  
