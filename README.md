@@ -12,6 +12,7 @@ Programs on Data Structures & Algorithm using C
 6. Singly Linked List
 7. Circular Linked List
 8. Doubly Linked List
+9. Circular Doubly Linked List
 
 ### `Arrays`
 
