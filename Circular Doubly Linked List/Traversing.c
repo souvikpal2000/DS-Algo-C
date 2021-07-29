@@ -21,6 +21,7 @@ void add(int no)
 		start = newNode;
 		newNode->rightAddress = start;
 		newNode->leftAddress = start; 
+		end = newNode;
 	}
 	else
 	{
