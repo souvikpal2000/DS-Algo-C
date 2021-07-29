@@ -79,6 +79,10 @@ Programs on Data Structures & Algorithm using C
 2. Adding, Inserting & Traversing.
 3. Adding, Deleting & Traversing.
 
+### `Circular Doubly Linked List`
+
+1. Adding & Traversing. 
+
 ## License
  
 The MIT License (MIT)
