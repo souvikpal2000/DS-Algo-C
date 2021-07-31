@@ -88,7 +88,7 @@ Programs on Data Structures & Algorithm using C
 
 ### `Stack`
 
-
+1. Stack using Linked List.
 
 ## License
  
