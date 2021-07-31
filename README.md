@@ -13,6 +13,7 @@ Programs on Data Structures & Algorithm using C
 7. Circular Linked List
 8. Doubly Linked List
 9. Circular Doubly Linked List
+10. Stack
 
 ### `Arrays`
 
@@ -84,6 +85,10 @@ Programs on Data Structures & Algorithm using C
 1. Adding & Traversing. 
 2. Adding, Inserting & Traversing.
 3. Adding, Deleting & Traversing.
+
+### `Stack`
+
+
 
 ## License
  
