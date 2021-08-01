@@ -14,6 +14,7 @@ Programs on Data Structures & Algorithm using C
 8. Doubly Linked List
 9. Circular Doubly Linked List
 10. Stack
+11. Queue
 
 ### `Arrays`
 
@@ -90,6 +91,10 @@ Programs on Data Structures & Algorithm using C
 
 1. Stack using Linked List.
 2. Stack using Array.
+
+### `Queue`
+
+1. Queue using Array.
 
 ## License
  
