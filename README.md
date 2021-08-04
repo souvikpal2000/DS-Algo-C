@@ -15,6 +15,7 @@ Programs on Data Structures & Algorithm using C
 9. Circular Doubly Linked List
 10. Stack
 11. Queue
+12. Tree
 
 ### `Arrays`
 
@@ -99,6 +100,10 @@ Programs on Data Structures & Algorithm using C
 3. Circular Queue.
 4. Deque.
 5. Priority Queue.
+
+### `Tree`
+
+
 
 ## License
  
