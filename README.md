@@ -103,7 +103,7 @@ Programs on Data Structures & Algorithm using C
 
 ### `Tree`
 
-
+1. Binary Search Tree.
 
 ## License
  
