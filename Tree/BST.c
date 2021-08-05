@@ -51,9 +51,108 @@ void insert(int no)
 		}
 	}
 }
-void delete(int no)
+//Case 1: Node with Zero Child
+//Case 2: Node with One Child
+//Case 3: Node with Two Children 
+//Will be replaced with Inorder Predecessor (Largest Element from Left Sub Tree)
+//Or
+//Will be replaces with Inorder Successor (Smallest Element from Right Sub Tree)
+Node *findLargest(Node *ptr)
 {
-	
+	int large = 0;
+	Node *addr;
+	while(ptr!=NULL)
+	{
+		if(large < ptr->data)
+		{
+			large = ptr->data;
+			addr = ptr;
+		}
+		ptr = ptr->rightAddress;
+	}
+	return addr;
+}
+Node *findSmallest(Node *ptr)
+{
+	int small = 999999;
+	Node *addr;
+	while(ptr!=NULL)
+	{
+		if(small > ptr->data)
+		{
+			small = ptr->data;
+			addr = ptr;
+		}
+		ptr = ptr->leftAddress;
+	}
+	return addr;
+}
+void delete(Node *tree, int no)
+{
+	Node *ptr, *leftChildAddress, *rightChildAddress, *flag;
+	ptr = tree;
+	int k = 0;
+	while(ptr!=NULL)
+	{
+		if(no==ptr->data)
+		{
+			if(ptr->leftAddress==NULL && ptr->rightAddress==NULL) //Zero Child
+			{
+				flag->leftAddress = NULL;
+				flag->rightAddress = NULL;
+				free(ptr);
+			}
+			else if(ptr->leftAddress!=NULL && ptr->rightAddress==NULL) //One Child
+			{
+				leftChildAddress = ptr->leftAddress; 
+				ptr->data = leftChildAddress->data;
+				free(leftChildAddress);
+				ptr->leftAddress = NULL;
+			}
+			else if(ptr->leftAddress==NULL && ptr->rightAddress!=NULL) //One Child
+			{
+				rightChildAddress = ptr->rightAddress;
+				ptr->data = rightChildAddress->data;
+				free(rightChildAddress);
+				ptr->rightAddress = NULL;
+			}
+			else if(ptr->leftAddress!=NULL && ptr->rightAddress!=NULL) //Two Child
+			{
+				int choice;
+				printf("\n1: Inorder Predecessor\n2: Inorder Successor\n\n");
+				printf("Enter Choice : ");
+				scanf("%d",&choice);
+				if(choice==1)
+				{
+					Node *largeAddr = findLargest(ptr->leftAddress);
+					ptr->data = largeAddr->data;
+					delete(ptr->leftAddress, largeAddr->data);
+				}
+				else
+				{
+					Node *smallAddr = findSmallest(ptr->rightAddress);
+					ptr->data = smallAddr->data;
+					delete(ptr->rightAddress, smallAddr->data);
+				}
+			}
+			k=1;
+			break;
+		}
+		else if(no < ptr->data)
+		{
+			flag = ptr;
+			ptr = ptr->leftAddress;
+		}
+		else if(no > ptr->data)
+		{
+			flag = ptr;
+			ptr = ptr->rightAddress;
+		}
+	}
+	if(ptr==NULL && k!=1)
+	{
+		printf("\nNumber not Found\n");
+	}
 }
 void preOrder(Node *tree)
 {
@@ -102,7 +201,7 @@ int main()
 		{
 			printf("Enter Number to be Deleted : ");
 			scanf("%d",&no);
-			delete(no);
+			delete(tree,no);
 		}
 		else if(choice==3)
 		{
