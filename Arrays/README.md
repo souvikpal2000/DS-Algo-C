@@ -8,3 +8,4 @@
 6. Interchange the Largest & Smallest Number in an Array.
 7. Passing 2D Array to Function.
 8. Transpose of a Matrix.
+9. Sort the Array in Descending Order with respect to Frequency.
